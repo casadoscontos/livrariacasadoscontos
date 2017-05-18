@@ -1,4 +1,7 @@
+/* Dependencies */
 import React, { Component } from 'react';
+
+/* Components */
 import Anchor from 'grommet/components/Anchor';
 import Box from 'grommet/components/Box';
 import Card from 'grommet/components/Card';
