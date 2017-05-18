@@ -1,26 +1,28 @@
-Casa dos Contos
+# Livraria Casa dos Contos
 
-Para executar o website:
+## *Website*
 
-  1. Instalar modules NPM:
+## Para executar o website
+
+1. Instalar modules NPM
 
       ```
       $ npm install
       ```
 
-  2. Iniciar servidor de desenvolvimento:
+2. Iniciar servidor de desenvolvimento
 
       ```
       $ gulp dev
       ```
 
-  3. Criar distribuição do website:
+3. Criar distribuição do website
 
       ```
       $ gulp dist
       ```
 
-  4. Rodar servidor backend:
+4. Rodar servidor backend
 
       ```
       $ npm start

@@ -18,17 +18,11 @@ export default class NewsFeed extends Component {
   }
 
   render() {
-    const twitterIconBox = (
-      <Box align="end"><SocialTwitterIcon /></Box>
-    );
+    const twitterIconBox = (<Box align="end"><SocialTwitterIcon /></Box>);
 
-    const facebookIconBox = (
-      <Box align="end"><SocialFacebookIcon /></Box>
-    );
+    const facebookIconBox = (<Box align="end"><SocialFacebookIcon /></Box>);
 
-    const linkedinIconBox = (
-      <Box align="end"><SocialLinkedinIcon /></Box>
-    );
+    const linkedinIconBox = (<Box align="end"><SocialLinkedinIcon /></Box>);
 
     const socialFeedCard1 = (
       <Card
@@ -83,7 +77,7 @@ export default class NewsFeed extends Component {
         onClick={this._onClickCard.bind(this, grommetPath)}
         direction="column"
         label="Destaque"
-        link={ <Anchor href={grommetPath} label="Saiba mais" icon={<LinkNextIcon />} /> }>
+        link={<Anchor href={grommetPath} label="Saiba mais" icon={<LinkNextIcon />} />}>
         <Heading tag="h2">
           Algum texto bem interessante vai residir neste local num futuro próximo
         </Heading>
@@ -99,7 +93,7 @@ export default class NewsFeed extends Component {
         thumbnail="/img/carousel-1.png"
         direction="column"
         label="Destaque"
-        link={ <Anchor href={grommetPath} label="Saiba mais" icon={<LinkNextIcon />} /> }>
+        link={<Anchor href={grommetPath} label="Saiba mais" icon={<LinkNextIcon />} />}>
         <Heading tag="h2">
           Algum texto bem interessante vai residir neste local num futuro próximo
         </Heading>

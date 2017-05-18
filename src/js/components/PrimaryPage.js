@@ -26,7 +26,7 @@ export default class PrimaryPage extends Component {
               description="Títulos diversos, que vão do infantil ao adulto, e que agradam aos gostos mais variados, com preços acessíveis e o atendimento de quem realmente entende do assunto."
               label="diferenciada"
               size="large"
-              link={ <Anchor href="#" primary={true} label="Saiba mais" /> } />
+              link={<Anchor href="#" primary={true} label="Saiba mais" />} />
           </Hero>
         </Box>
 
@@ -75,20 +75,20 @@ export default class PrimaryPage extends Component {
                 label="Algum Label"
                 basis="1/2"
                 separator="right"
-                link={ <Anchor
+                link={<Anchor
                          style={{ 'color': '#766C62' }}
                          href="http://www.grommet.io/docs/"
-                         primary={true}>Saiba mais</Anchor> } />
+                         primary={true}>Saiba mais</Anchor>} />
               <Card
                 pad={{ horizontal: "large" }}
                 contentPad="medium"
                 heading="Alguma coisa interessante"
                 label="Algum Label"
                 basis="1/2"
-                link={ <Anchor
+                link={<Anchor
                          style={{ 'color': '#766C62' }}
                          href="http://www.grommet.io/docs/"
-                         primary={true}>Saiba mais</Anchor> } />
+                         primary={true}>Saiba mais</Anchor>} />
             </Box>
           </Box>
         </Footer>
