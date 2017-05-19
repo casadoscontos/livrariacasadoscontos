@@ -9,7 +9,6 @@ import Footer from 'grommet/components/Footer';
 import Heading from 'grommet/components/Heading';
 import Hero from 'grommet/components/Hero';
 import Paragraph from 'grommet/components/Paragraph';
-import Image from 'grommet/components/Image';
 import Header from './Header';
 import NewsFeed from './NewsFeed';
 
@@ -19,11 +18,7 @@ export default class PrimaryPage extends Component {
       <Box>
         <Header />
         <Box>
-          <Hero size="large"
-                background={<Image style={{ 'color': '#FFF', 'filter': 'blur(2px)' }}
-                                   full={true}
-                                   fit="cover"
-                                   src="/img/livraria.jpg" />}>
+          <Hero size="large" backgroundImage="/img/livraria.jpg" style={{ 'color': '#FFF' }}>
             <Card
               heading={
                 <Heading strong={true}>
@@ -64,6 +59,7 @@ export default class PrimaryPage extends Component {
           </Box>
           <NewsFeed />
         </Box>
+
         <Footer full="horizontal">
           <Box
             style={{ 'backgroundColor': '#EAD6C3' }}
