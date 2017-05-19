@@ -6,17 +6,12 @@ var http = require("http");
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
 var path = require('path');
-
 var server = express();
-
 var PORT = process.env.PORT || 8070;
-
 var app = express();
 
 app.use(compression());
-
 app.use(morgan('tiny'));
-
 app.use(bodyParser.json());
 
 app.use('/', express.static(path.join(__dirname, '/../dist')));
