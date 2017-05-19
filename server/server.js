@@ -1,14 +1,15 @@
 // (C) Copyright 2014-2015 Hewlett-Packard Development Company, L.P.
 
-var compression = require('compression');
 var express = require('express');
-var http = require("http");
-var morgan = require('morgan');
-var bodyParser = require('body-parser');
-var path = require('path');
 var server = express();
+var http = require("http");
+var path = require('path');
 var PORT = process.env.PORT || 8070;
 var app = express();
+
+var compression = require('compression');
+var morgan = require('morgan');
+var bodyParser = require('body-parser');
 
 app.use(compression());
 app.use(morgan('tiny'));

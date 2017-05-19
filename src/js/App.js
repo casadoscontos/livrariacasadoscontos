@@ -7,7 +7,7 @@ import GrommetApp from 'grommet/components/App';
 /* Styles */
 import '../scss/index.scss';
 
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <GrommetApp centered={false}>
@@ -17,4 +17,3 @@ class App extends React.Component {
   }
 }
 
-export default App;
