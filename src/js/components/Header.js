@@ -22,7 +22,7 @@ export default function AppHeader (props) {
         flex="grow">
         <Logo />
         <Box pad="small" />
-        <Menu label="Label" inline={true} direction="row" flex="grow">
+        <Menu label="Menu" inline={true} direction="row" flex="grow">
           <Anchor href="#" style={{ 'color': '#766C62' }}>Quem somos</Anchor>
           <Anchor href="#" style={{ 'color': '#766C62' }}>Serviços</Anchor>
           <Anchor href="#" style={{ 'color': '#766C62' }}>Produtos</Anchor>
