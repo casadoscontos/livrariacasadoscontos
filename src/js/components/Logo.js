@@ -1,7 +1,7 @@
-/* Dependencies */
+// Dependencies
 import React from 'react';
 
-/* Components */
+// Components
 import SVGIcon from 'grommet/components/SVGIcon';
 
 export default function Logo (props) {

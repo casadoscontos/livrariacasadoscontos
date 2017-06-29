@@ -1,8 +1,8 @@
-/* Dependencies */
+// Dependencies
 import React from 'react';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
-/* Components */
+// Components
 import App from './App';
 import PrimaryPage from './components/PrimaryPage';
 

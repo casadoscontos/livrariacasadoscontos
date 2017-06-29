@@ -10,16 +10,17 @@
   <meta name="fragment" content="!" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="Description" content="Grommet">
-  <meta name="Keywords" content="HPE, Grommet">
+  <meta name="Description" content="Livraria Casa dos Contos">
+  <meta name="Keywords" content="HPE, Livraria Casa dos Contos">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@hpe" />
   <meta name="twitter:creator" content="@hpe" />
-  <meta property="og:title" content="Grommet">
+
+  <meta property="og:title" content="Livraria Casa dos Contos">
   <meta property="og:image" content="http://placehold.it/350x150.jpg">
-  <meta property="og:site_name" content="Grommet">
-  <meta property="og:url" content="http://grommet.io/">
-  <meta property="og:description" content="Grommet">
+  <meta property="og:site_name" content="Livraria Casa dos Contos">
+  <meta property="og:url" content="http://livrariacasadoscontos.com.br">
+  <meta property="og:description" content="Livraria Casa dos Contos">
   <meta property="fb:app_id" content="null">
   <meta property="og:type" content="website">
 
@@ -76,13 +77,14 @@
   </style>
 </head>
 <body class="loading">
+
   <div id="content">
-    <svg version="1.1" viewBox="0 0 48 48" width="24px" height="24px" role="img" id="logo" aria-label="brand-grommet-outline"><path fill="#865CD6" fill-rule="evenodd" d="M24,44.5 C35.3218374,44.5 44.5,35.3218374 44.5,24 C44.5,12.6781626 35.3218374,3.5 24,3.5 C12.6781626,3.5 3.5,12.6781626 3.5,24 C3.5,35.3218374 12.6781626,44.5 24,44.5 L24,44.5 Z M24,39.5 C15.4395864,39.5 8.5,32.5604136 8.5,24 C8.5,15.4395864 15.4395864,8.5 24,8.5 C32.5604136,8.5 39.5,15.4395864 39.5,24 C39.5,32.5604136 32.5604136,39.5 24,39.5 L24,39.5 Z" stroke="none"></path></svg>
+    <svg version="1.1" viewBox="0 0 48 48" width="24px" height="24px" role="img" id="logo" aria-label="brand-grommet-outline">
+      <path fill="#865CD6" fill-rule="evenodd" d="M24,44.5 C35.3218374,44.5 44.5,35.3218374 44.5,24 C44.5,12.6781626 35.3218374,3.5 24,3.5 C12.6781626,3.5 3.5,12.6781626 3.5,24 C3.5,35.3218374 12.6781626,44.5 24,44.5 L24,44.5 Z M24,39.5 C15.4395864,39.5 8.5,32.5604136 8.5,24 C8.5,15.4395864 15.4395864,8.5 24,8.5 C32.5604136,8.5 39.5,15.4395864 39.5,24 C39.5,32.5604136 32.5604136,39.5 24,39.5 L24,39.5 Z" stroke="none"></path>
+    </svg>
     <script>
       var c = document.getElementById("content");
-      for (var i = 0; i < 100; i += 1) {
-        c.insertAdjacentHTML('beforeend', '<div class="t off"></div>');
-      }
+      for (var i = 0; i < 100; i += 1) { c.insertAdjacentHTML('beforeend', '<div class="t off"></div>'); }
       var timer = setInterval(function () {
         var again = false;
         if (document.body.classList.contains('loading')) {
@@ -91,15 +93,15 @@
             var index = Math.floor(Math.random() * ts.length);
             ts[index].classList.remove('off');
             ts[index].classList.add('on');
-            if (ts.length > 1) {
-              again = true;
-            }
+            if (ts.length > 1) { again = true; }
           }
         }
         if (!again) { clearInterval(timer); }
       }, 100)
     </script>
   </div>
-  <script async src="/index.js"></script>
+
+  <script async src="index.js"></script>
+
 </body>
 </html>

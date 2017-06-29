@@ -1,7 +1,7 @@
-/* Dependencies */
+// Dependencies
 import React, { Component } from 'react';
 
-/* Components */
+// Groomet Components
 import Anchor from 'grommet/components/Anchor';
 import Box from 'grommet/components/Box';
 import Card from 'grommet/components/Card';
@@ -9,6 +9,8 @@ import Footer from 'grommet/components/Footer';
 import Heading from 'grommet/components/Heading';
 import Hero from 'grommet/components/Hero';
 import Paragraph from 'grommet/components/Paragraph';
+
+// Components
 import Header from './Header';
 import NewsFeed from './NewsFeed';
 
@@ -81,7 +83,7 @@ export default class PrimaryPage extends Component {
                 separator="right"
                 link={<Anchor
                          style={{ 'color': '#766C62' }}
-                         href="http://www.grommet.io/docs/"
+                         href="http://www.google.com"
                          primary={true}>Saiba mais</Anchor>} />
               <Card
                 pad={{ horizontal: "large" }}
@@ -91,7 +93,7 @@ export default class PrimaryPage extends Component {
                 basis="1/2"
                 link={<Anchor
                          style={{ 'color': '#766C62' }}
-                         href="http://www.grommet.io/docs/"
+                         href="http://www.google.com"
                          primary={true}>Saiba mais</Anchor>} />
             </Box>
           </Box>

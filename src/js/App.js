@@ -1,10 +1,10 @@
-/* Dependencies */
+// Dependencies
 import React from 'react';
 
-/* Components */
+// Components
 import GrommetApp from 'grommet/components/App';
 
-/* Styles */
+// Styles
 import '../scss/index.scss';
 
 export default class App extends React.Component {

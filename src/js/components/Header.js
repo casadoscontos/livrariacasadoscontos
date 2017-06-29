@@ -1,7 +1,7 @@
-/* Dependencies */
+// Dependencies
 import React from 'react';
 
-/* Components */
+// Components
 import Anchor from 'grommet/components/Anchor';
 import Box from 'grommet/components/Box';
 import Header from 'grommet/components/Header';
